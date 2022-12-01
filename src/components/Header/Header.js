@@ -3,6 +3,7 @@ import { goToHomePage, goToPokedexPage } from "../../routes/coordinator";
 import { Container } from "./Header.styled";
 
 function Header() {
+
   // hook para saber nosso path atual
   const location = useLocation();
 
